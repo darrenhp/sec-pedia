@@ -1,7 +1,7 @@
 node_modules
 .DS_Store
 dist
-.vitepress
+/.vitepress
 docs/.vitepress/dist
 docs/.vitepress/cache
 *.local

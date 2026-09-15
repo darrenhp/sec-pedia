@@ -46,7 +46,7 @@ jobs:
 
       - name: Build with VitePress
         env:
-          BASE_URL: ${{ steps.pages.outputs.base_path || '/sec-pedia/' }}
+          BASE_URL: /sec-pedia/
         run: pnpm docs:build
 
       - name: Upload artifact
