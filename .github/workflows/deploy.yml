@@ -31,19 +31,22 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: pnpm
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
+        continue-on-error: true
 
       - name: Install dependencies
         run: pnpm install
 
       - name: Build with VitePress
         env:
-          BASE_URL: ${{ steps.pages.base_path || '/sec-pedia/' }}
+          BASE_URL: ${{ steps.pages.outputs.base_path || '/sec-pedia/' }}
         run: pnpm docs:build
 
       - name: Upload artifact
