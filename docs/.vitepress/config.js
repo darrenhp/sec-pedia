@@ -20,6 +20,7 @@ export default withMermaid(
     ],
     markdown: {
       lineNumbers: true,
+      math: true,
     },
     mermaid: {
       theme: 'neutral',
