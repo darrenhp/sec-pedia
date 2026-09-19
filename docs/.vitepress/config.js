@@ -134,6 +134,7 @@ export default withMermaid(
               { text: '安全运营概览', link: '/06-security-operations/' },
               { text: '业务风控与反欺诈体系', link: '/06-security-operations/01-risk-control' },
               { text: '安全应急响应与事件处置', link: '/06-security-operations/02-incident-response' },
+              { text: '异常行为检测与告警', link: '/06-security-operations/03-anomaly-detection' },
             ],
           },
         ],

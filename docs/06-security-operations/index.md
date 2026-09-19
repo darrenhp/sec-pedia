@@ -35,3 +35,4 @@ graph LR
 | :--- | :--- | :--- | :--- |
 | [1. 业务风控体系与反欺诈](./01-risk-control) | 规则引擎, 实时特征工程, 图计算 | 识别羊毛党、批量养号、转账盗刷、撞库扫号 | <span class="badge-pill status-recommended">互联网核心必备</span> |
 | [2. 安全应急响应体系 (PICERL)](./02-incident-response) | NIST / SANS PICERL 响应模型 | 准备、检测、遏制、根除、恢复、事后复盘 | <span class="badge-pill status-recommended">安全运营军规</span> |
+| [3. 异常行为检测与告警 (UEBA)](./03-anomaly-detection) | UEBA, 统计模型, 机器学习 | 撞库攻击检测、基线偏移、自动告警与降级响应 | <span class="badge-pill status-recommended">高级安全运营核心</span> |
